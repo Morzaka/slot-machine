@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  background-color: #3b0067;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+  font-size: large;
+  width: 700px;
+}
+
+.slot{
+  margin: 5px;
+  border: 1px solid #3B0067;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px 1px #3B0067;
+  background-image: url("./all_in_win.png");
+  width: 150px;
+  height: 150px;
+  transition: 2s;
+}
