@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './index.css';
 
 function getRandomInt() {
   return (Math.floor(Math.random() * 11))*(-150);
@@ -11,7 +12,7 @@ class App extends Component {
     this.state = {
       slot1: '0px',
       slot2: '0px',
-      slot3: '0px'
+      slot3: '0px',
     }
   }
 
@@ -22,6 +23,7 @@ class App extends Component {
       slot3: getRandomInt()
     });
   }
+
 
   render() {
 
